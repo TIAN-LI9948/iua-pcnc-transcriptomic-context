@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-12,
+  "endpoint_count": 4,
+  "numeric_check_count": 20,
+  "checks": [
+    {
+      "endpoint": "PGR_logCPM",
+      "field": "difference_PC_minus_NC",
+      "reproduced": 1.20080706566026,
+      "expected": 1.20080706566026,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "PGR_logCPM",
+      "field": "bootstrap_ci95_low",
+      "reproduced": 0.541535476348125,
+      "expected": 0.541535476348125,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "PGR_logCPM",
+      "field": "bootstrap_ci95_high",
+      "reproduced": 1.84360321683335,
+      "expected": 1.84360321683335,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "PGR_logCPM",
+      "field": "exact_permutation_p_two_sided",
+      "reproduced": 0.00690559440559441,
+      "expected": 0.00690559440559441,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "PGR_logCPM",
+      "field": "BH_q_within_family",
+      "reproduced": 0.00690559440559441,
+      "expected": 0.00690559440559441,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "frozen_candidate25_score",
+      "field": "difference_PC_minus_NC",
+      "reproduced": -2.47593636309796,
+      "expected": -2.47593636309796,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "frozen_candidate25_score",
+      "field": "bootstrap_ci95_low",
+      "reproduced": -3.21990713919188,
+      "expected": -3.21990713919188,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "frozen_candidate25_score",
+      "field": "bootstrap_ci95_high",
+      "reproduced": -1.6313802044025,
+      "expected": -1.6313802044025,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "frozen_candidate25_score",
+      "field": "exact_permutation_p_two_sided",
+      "reproduced": 0.000524475524475525,
+      "expected": 0.000524475524475525,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "frozen_candidate25_score",
+      "field": "BH_q_within_family",
+      "reproduced": 0.00104895104895105,
+      "expected": 0.00104895104895105,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "ESR1_logCPM",
+      "field": "difference_PC_minus_NC",
+      "reproduced": 1.14307625823325,
+      "expected": 1.14307625823325,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "ESR1_logCPM",
+      "field": "bootstrap_ci95_low",
+      "reproduced": 0.689770680495106,
+      "expected": 0.689770680495106,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "ESR1_logCPM",
+      "field": "bootstrap_ci95_high",
+      "reproduced": 1.6427077767197,
+      "expected": 1.6427077767197,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "ESR1_logCPM",
+      "field": "exact_permutation_p_two_sided",
+      "reproduced": 0.000262237762237762,
+      "expected": 0.000262237762237762,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "ESR1_logCPM",
+      "field": "BH_q_within_family",
+      "reproduced": 0.000437062937062937,
+      "expected": 0.000437062937062937,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "stable_epithelial_core_score",
+      "field": "difference_PC_minus_NC",
+      "reproduced": -3.86831585810292,
+      "expected": -3.86831585810292,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "stable_epithelial_core_score",
+      "field": "bootstrap_ci95_low",
+      "reproduced": -4.87789186577577,
+      "expected": -4.87789186577577,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "stable_epithelial_core_score",
+      "field": "bootstrap_ci95_high",
+      "reproduced": -2.67512053322535,
+      "expected": -2.67512053322535,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "stable_epithelial_core_score",
+      "field": "exact_permutation_p_two_sided",
+      "reproduced": 0.000437062937062937,
+      "expected": 0.000437062937062937,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "endpoint": "stable_epithelial_core_score",
+      "field": "BH_q_within_family",
+      "reproduced": 0.000437062937062937,
+      "expected": 0.000437062937062937,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "runtime": {
+    "python": "3.11.13 | packaged by conda-forge | (main, Jun  4 2025, 14:39:58) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "manifest": "metadata/file_manifest_sha256.tsv"
+}

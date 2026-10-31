@@ -1,0 +1,27 @@
+gene	membership	delta_donor1	delta_donor2	median_delta_log2RPKM	current_symbol	current_gene_type	source_is_unique_protein_coding	target_gene	mapping_method	portable_membership
+ARMC5	E2+MPA down	-0.538898823581992	-0.671111298550666	-0.605005061066329	ARMC5	protein-coding	TRUE	ARMC5	direct_exact_symbol	E2MPA_down_donor_consistent
+C15orf62	E2+MPA up	1.06817301974076	0.0024298987729936	0.535301459256875	C15orf62	protein-coding	TRUE	C15orf62	direct_exact_symbol	E2MPA_up_donor_consistent
+C19orf33	E2+MPA up	1.02825580976892	0.0216784662658126	0.524967138017366	C19orf33	protein-coding	TRUE	C19orf33	direct_exact_symbol	E2MPA_up_donor_consistent
+C19orf71	E2+MPA down	-0.649810011071357	-0.351143282368603	-0.50047664671998	TEKTIP1	protein-coding	TRUE	C19orf71	direct_exact_symbol	E2MPA_down_donor_consistent
+CCDC85B	E2+MPA down	-1.63057203431409	-1.06611717305134	-1.34834460368271	CCDC85B	protein-coding	TRUE	CCDC85B	direct_exact_symbol	E2MPA_down_donor_consistent
+CFAP410	E2+MPA down	-0.459112004424518	-0.682986001441181	-0.571049002932849	CFAP410	protein-coding	TRUE	C21orf2	unique_OrgDb_symbol_alias	E2MPA_down_donor_consistent
+CHGA	E2+MPA down	-1.08174669257155	-0.730739609681459	-0.906243151126505	CHGA	protein-coding	TRUE	CHGA	direct_exact_symbol	E2MPA_down_donor_consistent
+DEXI	E2+MPA up	0.108687014017795	0.916608851765215	0.512647932891505	DEXI	protein-coding	TRUE	DEXI	direct_exact_symbol	E2MPA_up_donor_consistent
+DGKQ	E2+MPA down	-0.739787090416755	-0.406358413905936	-0.573072752161345	DGKQ	protein-coding	TRUE	DGKQ	direct_exact_symbol	E2MPA_down_donor_consistent
+DOK7	E2+MPA down	-0.801861180977705	-0.696925183136562	-0.749393182057134	DOK7	protein-coding	TRUE	DOK7	direct_exact_symbol	E2MPA_down_donor_consistent
+FAM181A	E2+MPA down	-0.395800399064599	-0.679691387766591	-0.537745893415595	FAM181A	protein-coding	TRUE	FAM181A	direct_exact_symbol	E2MPA_down_donor_consistent
+HCFC1R1	E2+MPA up	1.20667285387534	0.502606086467507	0.854639470171421	HCFC1R1	protein-coding	TRUE	HCFC1R1	direct_exact_symbol	E2MPA_up_donor_consistent
+LRCOL1	E2+MPA down	-0.501063188308757	-0.521555949014109	-0.511309568661433	LRCOL1	protein-coding	TRUE	LRCOL1	direct_exact_symbol	E2MPA_down_donor_consistent
+MRPL49	E2+MPA up	0.479440738928166	0.736408516237046	0.607924627582606	MRPL49	protein-coding	TRUE	MRPL49	direct_exact_symbol	E2MPA_up_donor_consistent
+PCYOX1	E2+MPA up	0.619057226392782	0.559486611265973	0.589271918829378	PCYOX1	protein-coding	TRUE	PCYOX1	direct_exact_symbol	E2MPA_up_donor_consistent
+PLP2	E2+MPA up	1.09455787081417	0.00943404469747525	0.551995957755822	PLP2	protein-coding	TRUE	PLP2	direct_exact_symbol	E2MPA_up_donor_consistent
+PRR29	E2+MPA down	-0.827635027354427	-0.258481580115185	-0.543058303734806	PRR29	protein-coding	TRUE	PRR29	direct_exact_symbol	E2MPA_down_donor_consistent
+PTCD1	E2+MPA up	0.56542004457803	0.701563698023494	0.633491871300762	PTCD1	protein-coding	TRUE	PTCD1	direct_exact_symbol	E2MPA_up_donor_consistent
+PUSL1	E2+MPA down	-0.360324013945062	-0.675400529036977	-0.517862271491019	PUSL1	protein-coding	TRUE	PUSL1	direct_exact_symbol	E2MPA_down_donor_consistent
+RDH5	E2+MPA down	-1.27174980398738	-0.103965538396277	-0.68785767119183	RDH5	protein-coding	TRUE	RDH5	direct_exact_symbol	E2MPA_down_donor_consistent
+SDR39U1	E2+MPA up	0.500481579247662	0.606681509762971	0.553581544505317	SDR39U1	protein-coding	TRUE	SDR39U1	direct_exact_symbol	E2MPA_up_donor_consistent
+TMEM50B	E2+MPA up	1.15661003135203	0.0954217965321635	0.626015913942097	TMEM50B	protein-coding	TRUE	TMEM50B	direct_exact_symbol	E2MPA_up_donor_consistent
+TMEM97	E2+MPA up	1.16716763602685	0.152790009685663	0.659978822856255	TMEM97	protein-coding	TRUE	TMEM97	direct_exact_symbol	E2MPA_up_donor_consistent
+TUBA4A	E2+MPA up	1.35860306168923	0.0543703537602427	0.706486707724735	TUBA4A	protein-coding	TRUE	TUBA4A	direct_exact_symbol	E2MPA_up_donor_consistent
+VIL1	E2+MPA up	0.863946837846367	0.140370496280618	0.502158667063493	VIL1	protein-coding	TRUE	VIL1	direct_exact_symbol	E2MPA_up_donor_consistent
+VIM	E2+MPA down	-1.40069031167732	-0.304342249011783	-0.852516280344553	VIM	protein-coding	TRUE	VIM	direct_exact_symbol	E2MPA_down_donor_consistent

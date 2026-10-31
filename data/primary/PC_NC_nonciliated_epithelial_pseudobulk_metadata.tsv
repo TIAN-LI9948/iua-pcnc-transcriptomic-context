@@ -1,0 +1,17 @@
+pseudobulk_id	donor_id	CycleType	nuclei	compartment
+DH12	DH12	Natural	376	nonciliated_epithelial
+DH13	DH13	Natural	799	nonciliated_epithelial
+DH14	DH14	Natural	1263	nonciliated_epithelial
+DH15	DH15	Controlled	5881	nonciliated_epithelial
+DH16	DH16	Controlled	2787	nonciliated_epithelial
+DH17	DH17	Natural	944	nonciliated_epithelial
+DH19	DH19	Natural	503	nonciliated_epithelial
+DH20	DH20	Natural	1238	nonciliated_epithelial
+DH21	DH21	Natural	870	nonciliated_epithelial
+DH22	DH22	Controlled	7033	nonciliated_epithelial
+DH23	DH23	Controlled	1860	nonciliated_epithelial
+DH3	DH3	Natural	1485	nonciliated_epithelial
+DH4	DH4	Natural	2321	nonciliated_epithelial
+DH5	DH5	Controlled	3395	nonciliated_epithelial
+DH6	DH6	Controlled	987	nonciliated_epithelial
+DH8	DH8	Controlled	4101	nonciliated_epithelial

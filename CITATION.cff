@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated article and the public datasets listed in the README."
+title: "Reproducibility materials for epithelial ESR1/PGR and window-of-implantation transcriptomic analyses"
+type: software
+version: 1.0.0
+date-released: 2026-10-31
+repository-code: "https://github.com/hao-r-rtools/iua-pcnc-transcriptomic-context"
+authors:
+  - given-names: Lu
+    family-names: Yang
+  - given-names: Sisi
+    family-names: Yang
+  - given-names: Purun
+    family-names: Zou
+  - given-names: Juntao
+    family-names: Liu
+  - given-names: Weihua
+    family-names: Zhou
+  - given-names: Xiaodong
+    family-names: Mi
+  - given-names: Dan
+    family-names: Shu
+  - given-names: Li
+    family-names: Tian
+    orcid: "https://orcid.org/0009-0005-0371-7888"
+license: MIT
+keywords:
+  - intrauterine adhesions
+  - endometrium
+  - ESR1
+  - PGR
+  - window of implantation
+  - transcriptomics

@@ -1,0 +1,15 @@
+pseudobulk_id	donor_id	condition	locked_label_candidate_cell_count	retained_cell_count	pass_fraction	identity_gate	matrix	candidate25_available	stable_epithelial_core_available	ESR1_logCPM	PGR_logCPM	display_group
+AS_05	AS_05	AS	82	74	0.902439024390244	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	2.40987240131802	2.50758410966146	6.68027535895528	5.99083456079297	AS under HRT
+AS_07	AS_07	AS	35	21	0.6	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	0.98438422109535	0.576703641501006	4.61326568614048	3.6297778233198	AS under HRT
+AS_08	AS_08	AS	123	52	0.422764227642276	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	1.34669667883342	0.299076669525812	7.08200655957239	5.93366552054282	AS under HRT
+AS_09	AS_09	AS	721	278	0.385575589459085	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	2.39728633520779	1.49854360297096	8.52009638852883	6.69576612347301	AS under HRT
+AS_12	AS_12	AS	1314	732	0.557077625570776	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	3.20898654545261	2.75087052412228	7.98578107495635	6.97453307799982	AS under HRT
+AS_13	AS_13	AS	664	385	0.579819277108434	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	3.49179722720789	3.0161570315135	7.77761814830015	6.20786746916152	AS under HRT
+AS_14	AS_14	AS	123	53	0.430894308943089	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	3.19187230109567	2.46573190511586	6.78459738741647	6.11163561629661	AS under HRT
+AS_15	AS_15	AS	164	40	0.24390243902439	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	4.03379227862813	3.2595069437433	5.15282699490333	4.62738126481763	AS under HRT
+WOI_021	WOI_021	WOI_control_local	576	420	0.729166666666667	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	4.03149796255924	4.25168680100722	5.5601360949396	4.31427488856328	Local NC control
+WOI_032	WOI_032	WOI_control_local	1134	1033	0.910934744268078	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	6.53614532126739	8.2426340120465	5.35299589166516	3.63641780084783	Local NC control
+WOI_034	WOI_034	WOI_control_local	558	395	0.707885304659498	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	6.05402783841686	7.58916410049497	6.11986318101129	4.35901781430666	Local NC control
+WOI_035	WOI_035	WOI_control_local	236	208	0.88135593220339	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	4.66509678429836	5.029821514536	7.56157205832747	4.85161739496197	Local NC control
+WOI_036	WOI_036	WOI_control_local	247	198	0.801619433198381	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	3.57185170898517	3.39229208210128	6.51716940236729	4.77456682811743	Local NC control
+WOI_043	WOI_043	WOI_control_local	1020	926	0.907843137254902	>=3 epithelial markers and identity difference >=0.5	raw/X integer sum	6.06429473130858	7.20798110966362	6.12608330913869	3.651056638231	Local NC control

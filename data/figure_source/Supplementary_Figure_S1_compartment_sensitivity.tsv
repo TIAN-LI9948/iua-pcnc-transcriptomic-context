@@ -1,0 +1,7 @@
+endpoint	difference_PC_minus_NC	bootstrap_ci95_low	bootstrap_ci95_high	exact_BH_q_within_family	compartment	compartment_label	endpoint_label	q_label
+PGR_logCPM	1.20080706566026	0.541535476348125	1.84360321683335	0.00690559440559441	primary_nonciliated	Primary nonciliated	PGR	<i>q</i> = 0.007
+frozen_candidate25_score	-2.47593636309796	-3.21990713919188	-1.6313802044025	0.00104895104895105	primary_nonciliated	Primary nonciliated	Frozen WOI programme	<i>q</i> = 0.001
+PGR_logCPM	1.43167501519585	0.84285271452065	1.99560203558255	0.00043706293706293	glandular_epithelial	Glandular only	PGR	<i>q</i> = 0.00044
+frozen_candidate25_score	-2.56119678561683	-3.26010066833673	-1.79372482399333	0.00043706293706293	glandular_epithelial	Glandular only	Frozen WOI programme	<i>q</i> = 0.00044
+PGR_logCPM	0.959933179077933	0.0230233386776892	1.80743210665838	0.0854020979020979	broad_epithelial_audit	Broad epithelium	PGR	<i>q</i> = 0.085
+frozen_candidate25_score	-2.40802757646969	-3.16707361495152	-1.55744967261906	0.00122377622377622	broad_epithelial_audit	Broad epithelium	Frozen WOI programme	<i>q</i> = 0.001

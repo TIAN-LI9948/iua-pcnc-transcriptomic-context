@@ -1,0 +1,9 @@
+qa_check	qa_value	status
+eligible_pair_count	3	PASS
+formal_inference_allowed	FALSE	PASS
+endpoint_long_rows	24	PASS
+endpoint_matrix_roundtrip_exact	TRUE	PASS
+max_abs_rowmean_gene_zscore	8.44694684568973e-15	PASS
+PGR_and_ESR1_exact_features	TRUE	PASS
+portable_WOI_mapping	22/25	PASS
+portable_core_mapping	9/11	PASS

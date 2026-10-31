@@ -1,0 +1,20 @@
+# R and Python temporary files
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local-only raw workspaces and credentials
+raw/
+.env
+*.pem
+*.key
+*.token

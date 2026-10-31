@@ -1,0 +1,10 @@
+Patient	post	pre	eligible_min20_each_stage	complete_prepost	status	patient_label
+01-05	98	NA	FALSE	FALSE	Post only	01-05
+01-07	1213	4	FALSE	TRUE	Below gate	01-07
+01-08	118	3	FALSE	TRUE	Below gate	01-08
+01-09	7	263	FALSE	TRUE	Below gate	01-09
+01-10	43	6	FALSE	TRUE	Below gate	01-10
+01-12	14	953	FALSE	TRUE	Below gate	01-12
+01-13	116	509	TRUE	TRUE	Eligible	01-13
+01-14	824	21	TRUE	TRUE	Eligible	01-14
+01-15	742	50	TRUE	TRUE	Eligible	01-15

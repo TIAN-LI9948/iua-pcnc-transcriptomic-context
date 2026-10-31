@@ -1,0 +1,3 @@
+analysis	genes	spearman	spearman_bootstrap_ci95_low	spearman_bootstrap_ci95_high	sign_concordance	sign_concordance_bootstrap_ci95_low	sign_concordance_bootstrap_ci95_high	valid_bootstrap	failed_bootstrap
+primary_full_common_expression_universe	10465	0.395316035127347	0.132540460240106	0.527610906062877	0.584519827998089	0.514663162924033	0.65505016722408	2000	0
+predeclared_exclude_receptors_and_programme_core	10446	0.393087551655944	0.145624124902186	0.524779528751858	0.583955581083668	0.518179207352096	0.654803273980471	2000	0

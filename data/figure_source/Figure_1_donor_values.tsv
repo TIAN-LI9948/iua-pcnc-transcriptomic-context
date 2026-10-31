@@ -1,0 +1,17 @@
+pseudobulk_id	donor_id	CycleType	nuclei	compartment	condition	ESR1_logCPM	PGR_logCPM	frozen_candidate25_score	stable_epithelial_core_score	context
+DH12	DH12	Natural	376	nonciliated_epithelial	Natural	8.48852787901463	7.08623988088457	2.7242072076509	2.3822851241827	Natural cycle
+DH13	DH13	Natural	799	nonciliated_epithelial	Natural	7.86422683038037	5.4087363025802	5.68748440893645	6.91333852696182	Natural cycle
+DH14	DH14	Natural	1263	nonciliated_epithelial	Natural	7.80601984219573	5.71550721489559	5.71784248879402	6.85887120919556	Natural cycle
+DH15	DH15	Controlled	5881	nonciliated_epithelial	Controlled	8.63377137368439	7.58749128371736	2.19559593128714	1.4301503558853	Programmed cycle
+DH16	DH16	Controlled	2787	nonciliated_epithelial	Controlled	8.57828076101648	6.20310812282586	3.1110125729519	2.36129314058532	Programmed cycle
+DH17	DH17	Natural	944	nonciliated_epithelial	Natural	7.16047744110189	6.19868064292621	5.41632775497428	6.14769569188551	Natural cycle
+DH19	DH19	Natural	503	nonciliated_epithelial	Natural	8.09445455868678	6.30114019394955	5.56929323230845	6.32356990028658	Natural cycle
+DH20	DH20	Natural	1238	nonciliated_epithelial	Natural	7.12795461753619	5.21554042850888	5.86786976071878	6.65109898760959	Natural cycle
+DH21	DH21	Natural	870	nonciliated_epithelial	Natural	7.3813395128904	4.98137567396464	5.67321491950903	6.64297177618686	Natural cycle
+DH22	DH22	Controlled	7033	nonciliated_epithelial	Controlled	9.99014237689595	8.01167746504385	1.79505444689026	1.15020760356008	Programmed cycle
+DH23	DH23	Controlled	1860	nonciliated_epithelial	Controlled	8.89485372927806	6.53395568549827	3.32203620218177	2.59320233520645	Programmed cycle
+DH3	DH3	Natural	1485	nonciliated_epithelial	Natural	8.19882599382181	7.06578711437508	3.82570914752304	3.54404949987178	Natural cycle
+DH4	DH4	Natural	2321	nonciliated_epithelial	Natural	8.16491011678539	6.02535354523667	5.83456411172679	6.94284790732345	Natural cycle
+DH5	DH5	Controlled	3395	nonciliated_epithelial	Controlled	9.42903978267761	7.87200054447075	2.0528375657729	1.17625481048432	Programmed cycle
+DH6	DH6	Controlled	987	nonciliated_epithelial	Controlled	8.63700488229179	6.95544785202874	3.17021646963599	2.54521894473895	Programmed cycle
+DH8	DH8	Controlled	4101	nonciliated_epithelial	Controlled	8.50590285144315	7.24069372617587	3.045646850149	2.42625073221105	Programmed cycle

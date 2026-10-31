@@ -1,0 +1,50 @@
+annotation_class	lineage_panel	mean_score	within_class_z	lineage_label	class_label
+Stromal / perivascular	Epithelium	0.103263119114682	-0.44160648726763	Epithelium	Stromal / perivascular
+Immune	Epithelium	0.0773751354676624	-0.654072597028775	Epithelium	Immune
+Nonciliated epithelium	Epithelium	0.94769487558536	1.34250333810841	Epithelium	Nonciliated epithelium
+Endothelial	Epithelium	0.090791780851472	-0.560952009136091	Epithelium	Endothelial
+Erythrocyte	Epithelium	0.128963512791132	-0.741498065453171	Epithelium	Erythrocyte
+Ciliated epithelium	Epithelium	0.662966528036234	0.448911272353304	Epithelium	Ciliated epithelium
+Excluded epithelium	Epithelium	0.694697840928136	0.767096216478319	Epithelium	Excluded epithelium
+Stromal / perivascular	Ciliated_epithelium	0.110450501466735	-0.432093744021525	Ciliated epithelium	Stromal / perivascular
+Immune	Ciliated_epithelium	0.0346984528364394	-0.783578021260472	Ciliated epithelium	Immune
+Nonciliated epithelium	Ciliated_epithelium	0.18799732180723	-0.440320942387993	Ciliated epithelium	Nonciliated epithelium
+Endothelial	Ciliated_epithelium	0.051776210242732	-0.641216508081825	Ciliated epithelium	Endothelial
+Erythrocyte	Ciliated_epithelium	0.113344011412554	-0.768190771710295	Ciliated epithelium	Erythrocyte
+Ciliated epithelium	Ciliated_epithelium	0.972268653270517	1.11491532745859	Ciliated epithelium	Ciliated epithelium
+Excluded epithelium	Ciliated_epithelium	0.173585740810443	-0.430349104654149	Ciliated epithelium	Excluded epithelium
+Stromal / perivascular	Stromal	2.11790012187268	2.22483361604296	Stromal	Stromal / perivascular
+Immune	Stromal	0.658481366625437	1.109335530076	Stromal	Immune
+Nonciliated epithelium	Stromal	1.03843494745118	1.55544808504335	Stromal	Nonciliated epithelium
+Endothelial	Stromal	0.707413161172061	0.707587841965599	Stromal	Endothelial
+Erythrocyte	Stromal	1.55179628130917	1.69003007507707	Stromal	Erythrocyte
+Ciliated epithelium	Stromal	1.14092674876191	1.47807796476189	Stromal	Ciliated epithelium
+Excluded epithelium	Stromal	1.21423180588895	1.96091519587109	Stromal	Excluded epithelium
+Stromal / perivascular	Endothelial	0.165800422613095	-0.358836254330981	Endothelial	Stromal / perivascular
+Immune	Endothelial	0.110933123478364	-0.55223849920908	Endothelial	Immune
+Nonciliated epithelium	Endothelial	0.158911697806637	-0.508577785422122	Endothelial	Nonciliated epithelium
+Endothelial	Endothelial	1.32419291086354	1.97645349730402	Endothelial	Endothelial
+Erythrocyte	Endothelial	0.190086447750665	-0.637042967373933	Endothelial	Erythrocyte
+Ciliated epithelium	Endothelial	0.155070350350974	-0.644714947171172	Endothelial	Ciliated epithelium
+Excluded epithelium	Endothelial	0.168056489789848	-0.443054577742345	Endothelial	Excluded epithelium
+Stromal / perivascular	Perivascular	0.466823221011659	0.0395775842721447	Perivascular	Stromal / perivascular
+Immune	Perivascular	0.105194962829103	-0.569651355208541	Perivascular	Immune
+Nonciliated epithelium	Perivascular	0.125782104657041	-0.586324834594953	Perivascular	Nonciliated epithelium
+Endothelial	Perivascular	0.2616394897168	-0.209476802336728	Perivascular	Endothelial
+Erythrocyte	Perivascular	0.829500169903739	0.455673262711029	Perivascular	Erythrocyte
+Ciliated epithelium	Perivascular	0.136037449170518	-0.685697495729482	Perivascular	Ciliated epithelium
+Excluded epithelium	Perivascular	0.120551994977405	-0.552213499657752	Perivascular	Excluded epithelium
+Stromal / perivascular	Immune	0.00683210353190034	-0.569236192669098	Immune	Stromal / perivascular
+Immune	Immune	0.865211738220628	1.73667352413611	Immune	Immune
+Nonciliated epithelium	Immune	0.0156281990478741	-0.844829099265635	Immune	Nonciliated epithelium
+Endothelial	Immune	0.0139129957904142	-0.719110330703743	Immune	Endothelial
+Erythrocyte	Immune	0.0752609909552491	-0.833272162838765	Immune	Erythrocyte
+Ciliated epithelium	Immune	0.0102909292332989	-0.956460886476084	Immune	Ciliated epithelium
+Excluded epithelium	Immune	0.0225816006119797	-0.777336252163184	Immune	Excluded epithelium
+Stromal / perivascular	Erythrocyte	0.0873723007105331	-0.462638522025874	Erythrocyte	Stromal / perivascular
+Immune	Erythrocyte	0.198513844502691	-0.286468581505233	Erythrocyte	Immune
+Nonciliated epithelium	Erythrocyte	0.154939841023964	-0.517898761481065	Erythrocyte	Nonciliated epithelium
+Endothelial	Erythrocyte	0.0945182833285242	-0.553285689011233	Erythrocyte	Endothelial
+Erythrocyte	Erythrocyte	1.05105772281483	0.834300629588064	Erythrocyte	Erythrocyte
+Ciliated epithelium	Erythrocyte	0.103837835964909	-0.755031235197043	Erythrocyte	Ciliated epithelium
+Excluded epithelium	Erythrocyte	0.132369712749021	-0.525057978131981	Erythrocyte	Excluded epithelium

@@ -1,0 +1,2 @@
+score_name	n_frozen_genes	n_mapped_genes	as_n	control_n	as_mean	control_mean	as_median	control_median	mean_difference_AS_minus_control	bootstrap_ci95_low	bootstrap_ci95_high	exact_permutation_p_two_sided	permutations_enumerated	score_test_FDR_BH_across_two_scores
+candidate25_available	25	22	8	6	2.63308599860486	5.15381905780593	2.80087235120684	5.35956231135761	-2.52073305920108	-3.6381675404871	-1.40039373083404	0.00133200133200133	3003	0.00133200133200133

@@ -1,0 +1,15 @@
+pseudobulk_id	donor_id	condition	primary_cell_labels	retained_cell_count	matrix	E2MPA_response_score_PGR_excluded
+AS_05	AS_05	AS	Ciliated Epithelium;Epithelium	82	raw/X integer sum	1.98368340810719
+AS_07	AS_07	AS	Ciliated Epithelium;Epithelium	35	raw/X integer sum	4.8453026407104
+AS_08	AS_08	AS	Ciliated Epithelium;Epithelium	123	raw/X integer sum	1.08226827720288
+AS_09	AS_09	AS	Ciliated Epithelium;Epithelium	721	raw/X integer sum	2.00315891399569
+AS_12	AS_12	AS	Ciliated Epithelium;Epithelium	1314	raw/X integer sum	2.07745915738483
+AS_13	AS_13	AS	Ciliated Epithelium;Epithelium	664	raw/X integer sum	2.49484556285796
+AS_14	AS_14	AS	Ciliated Epithelium;Epithelium	123	raw/X integer sum	1.07977472846245
+AS_15	AS_15	AS	Ciliated Epithelium;Epithelium	164	raw/X integer sum	1.83522194316128
+WOI_021	WOI_021	WOI_control_local	Ciliated Epithelium;Epithelium	576	raw/X integer sum	2.797369058384
+WOI_032	WOI_032	WOI_control_local	Ciliated Epithelium;Epithelium	1134	raw/X integer sum	3.1747099555577
+WOI_034	WOI_034	WOI_control_local	Ciliated Epithelium;Epithelium	558	raw/X integer sum	2.50852150901618
+WOI_035	WOI_035	WOI_control_local	Ciliated Epithelium;Epithelium	236	raw/X integer sum	2.03772544942813
+WOI_036	WOI_036	WOI_control_local	Ciliated Epithelium;Epithelium	247	raw/X integer sum	1.93539075085697
+WOI_043	WOI_043	WOI_control_local	Ciliated Epithelium;Epithelium	1020	raw/X integer sum	2.70026304143219
