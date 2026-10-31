@@ -65,9 +65,17 @@ fmt_num <- function(x, digits = 2L) formatC(x, format = "f", digits = digits)
 fmt_prob <- function(x) {
   vapply(x, function(z) {
     if (!is.finite(z)) return("NA")
-    if (z < 0.001) return(formatC(z, format = "g", digits = 2))
+    if (z < 0.001) return("<0.001")
     formatC(z, format = "f", digits = 3)
   }, character(1))
+}
+fmt_stat_html <- function(symbol, x) {
+  prob <- fmt_prob(x)
+  ifelse(
+    startsWith(prob, "<"),
+    paste0("<i>", symbol, "</i> &lt; ", substring(prob, 2L)),
+    paste0("<i>", symbol, "</i> = ", prob)
+  )
 }
 
 theme_pub <- function(base_size = 8.8) {
@@ -142,8 +150,8 @@ make_table_forest <- function(d, endpoint_order, x_label) {
     fmt_num(bootstrap_ci95_low), ", ", fmt_num(bootstrap_ci95_high), "]"
   )]
   d[, stat_label := paste0(
-    "<i>P</i> = ", fmt_prob(exact_permutation_p_two_sided),
-    "; <i>q</i> = ", fmt_prob(exact_BH_q_within_external_family)
+    fmt_stat_html("P", exact_permutation_p_two_sided),
+    "; ", fmt_stat_html("q", exact_BH_q_within_external_family)
   )]
 
   xr <- range(c(0, d$bootstrap_ci95_low, d$bootstrap_ci95_high), finite = TRUE)
@@ -275,7 +283,7 @@ make_compartment_panel <- function(compartment_id, colour, right_margin_pt) {
     labels = c("PGR", "Frozen WOI programme"))]
   d[, value_label := paste0(
     fmt_num(difference_PC_minus_NC), " [", fmt_num(bootstrap_ci95_low), ", ",
-    fmt_num(bootstrap_ci95_high), "]<br><i>q</i> = ", fmt_prob(exact_BH_q_within_family)
+    fmt_num(bootstrap_ci95_high), "]<br>", fmt_stat_html("q", exact_BH_q_within_family)
   )]
 
   ggplot(d, aes(difference_PC_minus_NC, 1)) +

@@ -166,10 +166,20 @@ context_colours <- c("Local NC control" = "#2C7FB8", "AS under HRT" = "#E67E22")
 
 fmt_num <- function(x, digits = 2L) formatC(x, format = "f", digits = digits)
 fmt_prob <- function(x) {
-  ifelse(x < 0.001, formatC(x, format = "g", digits = 2), formatC(x, format = "f", digits = 3))
+  ifelse(x < 0.001, "<0.001", formatC(x, format = "f", digits = 3))
+}
+fmt_stat_html <- function(symbol, x) {
+  prob <- fmt_prob(x)
+  ifelse(
+    startsWith(prob, "<"),
+    paste0("<i>", symbol, "</i> &lt; ", substring(prob, 2L)),
+    paste0("<i>", symbol, "</i> = ", prob)
+  )
 }
 math_stat <- function(est, lo, hi, symbol = "q", p = NA_real_) {
-  paste0("Delta == ", fmt_num(est), "~\"[", fmt_num(lo), ", ", fmt_num(hi), "]\"*\";\"~~italic(", symbol, ")==", fmt_prob(p))
+  prob <- fmt_prob(p)
+  comparison <- ifelse(startsWith(prob, "<"), prob, paste0("==", prob))
+  paste0("Delta == ", fmt_num(est), "~\"[", fmt_num(lo), ", ", fmt_num(hi), "]\"*\";\"~~italic(", symbol, ")", comparison)
 }
 
 theme_pub <- function(base_size = 8.2) {
@@ -349,7 +359,7 @@ make_gse215_panel <- function(d, xlab, x_breaks = waiver()) {
   d <- copy(d)
   d[, y := rev(seq_len(.N))]
   d[, endpoint_label := unname(endpoint_short[endpoint])]
-  d[, prob_label := paste0("<i>q</i> = ", fmt_prob(exact_q), "; <i>P</i> = ", fmt_prob(exact_p))]
+  d[, prob_label := paste0(fmt_stat_html("q", exact_q), "; ", fmt_stat_html("P", exact_p))]
   xr <- range(c(0, d$ci_low, d$ci_high), finite = TRUE)
   pad <- diff(xr) * 0.14
   contrast <- "AS under HRT (n = 8) - local NC control (n = 6)"
@@ -409,7 +419,7 @@ make_table_forest <- function(d, xlab) {
   d[endpoint == "stable_epithelial_core_zscore", endpoint_label := "Epithelial-core\nprogramme"]
   d[, diff_label := paste0(fmt_num(difference_severe_IUA_minus_control), " [",
     fmt_num(bootstrap_ci95_low), ", ", fmt_num(bootstrap_ci95_high), "]")]
-  d[, q_label := paste0("<i>q</i> = ", fmt_prob(exact_BH_q_within_external_family))]
+  d[, q_label := fmt_stat_html("q", exact_BH_q_within_external_family)]
   xr <- range(c(0, d$bootstrap_ci95_low, d$bootstrap_ci95_high))
   pad <- max(diff(xr) * 0.10, 0.05)
   forest_lo <- xr[1] - pad
@@ -536,7 +546,7 @@ comp[, compartment_label := factor(compartment,
   labels = c("Broad epithelium", "Glandular only", "Primary nonciliated"))]
 comp[, endpoint_label := factor(endpoint,
   levels = c("PGR_logCPM", "frozen_candidate25_score"), labels = c("PGR", "Frozen WOI programme"))]
-comp[, q_label := paste0("<i>q</i> = ", fmt_prob(exact_BH_q_within_family))]
+comp[, q_label := fmt_stat_html("q", exact_BH_q_within_family)]
 pS1b <- ggplot(comp, aes(difference_PC_minus_NC, compartment_label, colour = compartment_label)) +
   geom_vline(xintercept = 0, linetype = "dashed", linewidth = 0.32, colour = "#8A8A8A") +
   geom_segment(aes(x = bootstrap_ci95_low, xend = bootstrap_ci95_high, yend = compartment_label), linewidth = 0.72) +
@@ -626,7 +636,7 @@ pS2b <- ggplot(s2_score, aes(display_group, candidate25_available)) +
 
 rec <- copy(s2_receptor)
 rec[, y := match(gene, c("ESR1", "PGR"))]
-rec[, q_label := paste0("<i>q</i> = ", fmt_prob(target_receptor_FDR_BH2))]
+rec[, q_label := fmt_stat_html("q", target_receptor_FDR_BH2)]
 pS2c <- ggplot(rec, aes(logFC, y)) +
   geom_vline(xintercept = 0, linetype = "dashed", linewidth = 0.35, colour = "#8A8A8A") +
   geom_segment(aes(x = 0, xend = logFC, yend = y), linewidth = 0.72, colour = "#B8B8B8") +

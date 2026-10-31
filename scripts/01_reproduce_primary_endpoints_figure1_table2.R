@@ -188,7 +188,7 @@ theme_submission <- function(base_size = 9.2) {
 
 format_q_expr <- function(x) {
   if (x < 0.001) return("italic(q) < 0.001")
-  paste0("italic(q) == ", formatC(x, format = "f", digits = 4L))
+  paste0("italic(q) == ", formatC(x, format = "f", digits = 3L))
 }
 
 scores$context <- factor(

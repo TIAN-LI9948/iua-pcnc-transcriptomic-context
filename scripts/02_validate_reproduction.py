@@ -73,7 +73,7 @@ def main() -> int:
     manifest_rows: list[dict[str, object]] = []
     for folder in ("data", "scripts", "expected_outputs", "reproduced_outputs"):
         for path in sorted((repo / folder).rglob("*")):
-            if path.is_file():
+            if path.is_file() and "__pycache__" not in path.parts and path.suffix not in {".pyc", ".pyo"}:
                 manifest_rows.append(
                     {
                         "relative_path": path.relative_to(repo).as_posix(),
@@ -86,7 +86,12 @@ def main() -> int:
     metadata_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = metadata_dir / "file_manifest_sha256.tsv"
     with manifest_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["relative_path", "bytes", "sha256"], delimiter="\t")
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=["relative_path", "bytes", "sha256"],
+            delimiter="\t",
+            lineterminator="\n",
+        )
         writer.writeheader()
         writer.writerows(manifest_rows)
 
