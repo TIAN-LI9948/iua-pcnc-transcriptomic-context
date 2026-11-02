@@ -1,8 +1,12 @@
 # Reproducibility materials for the IUA/PC–NC transcriptomic-context study
 
+[![DOI](https://zenodo.org/badge/1442632274.svg)](https://doi.org/10.5281/zenodo.23878966)
+
 This repository supports the secondary public-data analysis reported in:
 
 > *Epithelial ESR1/PGR Expression and a Window-of-Implantation Program in Programmed-Cycle and Intrauterine Adhesion Contexts: A Secondary Analysis of Public Transcriptomic Data*
+
+The exact reproducibility release used for the manuscript revision is `v1.0.2`, permanently archived at [Zenodo DOI 10.5281/zenodo.23878966](https://doi.org/10.5281/zenodo.23878966).
 
 The primary analysis compares donor-level nonciliated epithelial pseudobulks from 7 programmed-cycle (PC) and 9 natural-cycle (NC) participants with unexplained infertility. The Asherman syndrome/hormone replacement therapy (AS/HRT) dataset is a composite contextual comparison: disease status and regimen are aligned, so these materials must not be used to claim a disease-only or HRT-adjusted effect. The three eligible pre/post GSE311899 pairs are descriptive and overlap the source population of the AS study; they are not an independent validation or a treatment-effect analysis.
 

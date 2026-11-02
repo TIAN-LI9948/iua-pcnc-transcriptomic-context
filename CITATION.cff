@@ -5,6 +5,7 @@ type: software
 version: 1.0.2
 date-released: 2026-11-02
 repository-code: "https://github.com/TIAN-LI9948/iua-pcnc-transcriptomic-context"
+doi: "10.5281/zenodo.23878966"
 authors:
   - given-names: Lu
     family-names: Yang
