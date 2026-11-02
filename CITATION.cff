@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use these materials, please cite the associated article and the public datasets listed in the README."
 title: "Reproducibility materials for epithelial ESR1/PGR and window-of-implantation transcriptomic analyses"
 type: software
-version: 1.0.0
-date-released: 2026-10-31
-repository-code: "https://github.com/hao-r-rtools/iua-pcnc-transcriptomic-context"
+version: 1.0.2
+date-released: 2026-11-02
+repository-code: "https://github.com/TIAN-LI9948/iua-pcnc-transcriptomic-context"
 authors:
   - given-names: Lu
     family-names: Yang
